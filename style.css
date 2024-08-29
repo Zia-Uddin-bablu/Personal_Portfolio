@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "lato", sans-serif;
+}
+body {
+  background-image: url(./images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* banner section start*/
+
+#bannerinfo {
+  background: #abd8e6;
+  padding: 12px;
+  text-align: center;
+  position: absolute;
+  top: 83px;
+  left: 15px;
+  border-radius: 30px;
+  color: #1055448e;
+  font-weight: 600;
+}
+
+/* banner section  ends*/
+
+/* logo starts */
+#logo {
+  font-size: 36px;
+  font-weight: 660;
+  margin-left: 20px;
+  color: #1055448e;
+}
+#logo span {
+  color: #9e5c75;
+}
+
+/* logo ends */
+
+/* navbar starts  */
+.navbar-toggler {
+  background: #9e5c75;
+  color: white;
+}
+.navbar-toggler:hover {
+  background: white;
+  color: #9e5c75;
+}
+#navbar {
+  background: #abd8e6;
+}
+#navbar .main-text h1 {
+  font-weight: 600;
+}
+#mynavbar {
+  margin-left: 20px;
+}
+#mynavbar .navbar-nav a {
+  font-size: 23px;
+  font-weight: 600;
+}
+#mynavbar form button:hover {
+  background: #9e5c75;
+  color: white;
+}
+#mynavbar .navbar-nav a:hover {
+  background: #9e5c75;
+  color: white;
+  border-radius: 5px;
+}
+/* navbar ends  */
+
+/* education starts  */
+#education {
+  margin-top: 5px;
+}
+#education .main-text h1 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding-top: 55px;
+}
+
+#education .card {
+  margin-top: 42px;
+  margin-right: 20px;
+  margin-bottom: 118px;
+  width: 393px;
+  height: 570px;
+  background: #dee7eb;
+  border: 2px solid #9e5c75;
+  transition: 0.5s ease;
+}
+#education .card:hover {
+  margin-top: 42px;
+  margin-right: 20px;
+  margin-bottom: 118px;
+  width: 393px;
+  height: 570px;
+  background: #abd8e6;
+  border: 1px solid #9e5c75;
+  box-shadow: 0px 1px 3px 1px #abd8e6;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 2px 2px rgb(243, 243, 240);
+  border-radius: 5px;
+}
+#education .card h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: #6d082f;
+  font-weight: 500;
+}
+#education .card h3 {
+  text-align: center;
+  color: #6d082f;
+  font-weight: 500;
+}
+#education .card h4 {
+  padding-bottom: 15px;
+  color: #44011b;
+  text-align: center;
+  font-weight: 500;
+}
+#education .card img {
+  height: 280px;
+  width: 390px;
+}
+
+/* education ends  */
+
+/* certification starts  */
+
+#certification .main-text h1 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 30px;
+}
+
+#certification .card {
+  margin-top: 42px;
+  margin-bottom: 118px;
+  width: 393px;
+  height: 570px;
+  background: transparent;
+  transition: 0.5s ease;
+  margin-left: 80px;
+  border: none;
+  color: white;
+}
+#certification .card:hover {
+  margin-top: 42px;
+  margin-bottom: 118px;
+  width: 393px;
+  height: 570px;
+  box-shadow: 0px 1px 3px 1px #abd8e6;
+  transform: scale(1.1);
+  border-radius: 5px;
+  background: #abd8e6;
+  color: #44011b;
+  border: 0.5px solid #44011b;
+}
+
+#certification .card h1 {
+  text-align: center;
+  padding-top: 15px;
+  /* color: rgb(253, 243, 243); */
+  font-weight: 500;
+}
+#certification .card h3 {
+  text-align: center;
+  /* color: rgb(253, 243, 243); */
+  font-weight: 500;
+}
+#certification .card h4 {
+  padding-bottom: 15px;
+  /* color: rgb(253, 243, 243); */
+  text-align: center;
+  font-weight: 500;
+}
+
+#certification .card img {
+  height: 280px;
+  width: 393px;
+  border-radius: 200%;
+  padding: 10px;
+}
+
+/* certification ends  */
+
+/* experience starts  */
+#experience .main-text h1 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+
+#experience .card1 {
+  background-color: #dee7eb;
+  color: #6d082f;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 40px;
+  height: 150px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 20px;
+  overflow: scroll;
+  transition: 0.5s ease;
+}
+#experience .card1:hover {
+  transform: scale(0.9);
+}
+#experience .card2 {
+  background-color: #dee7eb;
+  color: #6d082f;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 70px;
+  transition: 0.5s ease;
+}
+#experience .card2:hover {
+  transform: scale(1.2);
+}
+#experience .card3 {
+  background-color: #dee7eb;
+  color: #6d082f;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 30px;
+  position: absolute;
+  left: 1030px;
+  transition: 0.5s ease;
+}
+#experience .card3:hover {
+  transform: scale(1.2);
+}
+#experience .card4 {
+  background-color: #dee7eb;
+  color: #6d082f;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-bottom: 70px;
+  height: 150px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 20px;
+  overflow: scroll;
+  transition: 0.5s ease;
+}
+#experience .card4:hover {
+  transform: scale(0.9);
+}
+
+/* experience ends */
+
+/* Section projects starts  */
+
+#project .main-text {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 75px;
+  padding-bottom: 80px;
+  color: white;
+}
+#project .card {
+  height: 520px;
+  width: 400px;
+  color: white;
+  background-color: #abd8e6;
+  font-weight: 600;
+  text-align: center;
+}
+#project .card img {
+  height: 300px;
+}
+#project .card h1 {
+  padding-top: 20px;
+  color: #6d082f;
+  font-size: 40px;
+}
+#project .card p {
+  color: #6d082f;
+  padding-top: 10px;
+  font-size: 20px;
+}
+#project .card a button {
+  text-decoration: none;
+  background-color: #6d082f;
+  color: #abd8e6;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.5s;
+  margin-top: 6px;
+}
+#project .card a button:hover {
+  transform: scale(1.1);
+}
+/* Section projects ends */
+
+/* About me starts  */
+/* 
+#about {
+  margin-top: 81px;
+  background-color: aliceblue;
+}
+#about .card1 {
+  height: 500px;
+  width: 600px;
+  background: #abd8e6;
+  box-shadow: 0px 0px 7px 0px #9e5c75;
+  border: 1px solid #9e5c75;
+  border-bottom: 40px solid #9e5c75;
+}
+#about .card2 {
+  height: 500px;
+  width: 640px;
+  background: #abd8e6;
+  box-shadow: 0px 0px 5px 0px #9e5c75;
+  border: 1px solid #9e5c75;
+}
+#about .card1 img {
+  height: 560px;
+  width: 600px;
+}
+#about .card2 h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: #9e5c75;
+  font-size: 36px;
+  font-weight: 600;
+} */
+
+/* About me ends  */
