@@ -379,6 +379,7 @@ body {
 #about .card2:hover {
   transform: scale(1.4);
   border-radius: 30px;
+  cursor: pointer;
 }
 #about .card1 img {
   height: 570px;
@@ -400,4 +401,44 @@ body {
 /* About me ends  */
 
 /* footer section starts  */
+
+#footer {
+  height: 335px;
+  background: transparent;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+  transition: 0.5s ease;
+}
+#footer:hover {
+  background: #abd8e6;
+  color: #6d082f;
+  transform: scale(1.1);
+}
+#footer p {
+  font-size: 30px;
+  font-weight: 600;
+}
+#footer .social-links {
+  font-size: 50px;
+  font-weight: 600;
+  color: #6d082f;
+}
+#footer .social-links i {
+  padding: 20px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#footer .social-links i:hover {
+  color: white;
+  padding: 20px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+#footer .ends {
+  padding-top: 20px;
+}
+#footer .ends h4 a {
+  text-decoration: none;
+}
 /* footer section ends */
