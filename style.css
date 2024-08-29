@@ -277,7 +277,7 @@ body {
 
 /* Section projects starts  */
 
-#project .main-text {
+#project .main-text h1 {
   text-align: center;
   font-weight: 600;
   padding-top: 75px;
@@ -285,7 +285,7 @@ body {
   color: white;
 }
 #project .card {
-  height: 520px;
+  height: 540px;
   width: 400px;
   color: white;
   background-color: #abd8e6;
@@ -294,6 +294,11 @@ body {
 }
 #project .card img {
   height: 300px;
+  transition: 0.5s ease;
+}
+#project .card img:hover {
+  transform: scale(1.1);
+  border-radius: 40px;
 }
 #project .card h1 {
   padding-top: 20px;
@@ -319,14 +324,44 @@ body {
 }
 /* Section projects ends */
 
+/* section gallery starts  */
+#gallery .main-text h1 {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 75px;
+  padding-bottom: 80px;
+  color: white;
+}
+#gallery .card {
+  height: 345px;
+  border: 2px solid #6d082f;
+  box-shadow: 0px 4px 5px #abd8e6;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  transition: 0.5s ease;
+}
+#gallery .card img {
+  height: 345px;
+  border-radius: 10px;
+}
+
+#gallery .card:hover {
+  transform: scale(1.1);
+  border: 2px solid #abd8e6;
+  box-shadow: 0px 4px 5px #6d082f;
+}
+/* section gallery ends  */
+
 /* About me starts  */
-/* 
+
 #about {
   margin-top: 81px;
   background-color: aliceblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #about .card1 {
-  height: 500px;
+  height: 510px;
   width: 600px;
   background: #abd8e6;
   box-shadow: 0px 0px 7px 0px #9e5c75;
@@ -334,22 +369,35 @@ body {
   border-bottom: 40px solid #9e5c75;
 }
 #about .card2 {
-  height: 500px;
+  height: 510px;
   width: 640px;
   background: #abd8e6;
   box-shadow: 0px 0px 5px 0px #9e5c75;
   border: 1px solid #9e5c75;
+  transition: 0.5s ease;
+}
+#about .card2:hover {
+  transform: scale(1.4);
+  border-radius: 30px;
 }
 #about .card1 img {
-  height: 560px;
+  height: 570px;
   width: 600px;
 }
 #about .card2 h1 {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
   color: #9e5c75;
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 600;
-} */
-
+}
+#about .card2 p {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #6d082f;
+}
 /* About me ends  */
+
+/* footer section starts  */
+/* footer section ends */
